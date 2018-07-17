@@ -1,0 +1,87 @@
+.navbar-main{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height: 10vh;
+}
+
+.nav-link-left{
+    font-family: 'Kaushan Script', cursive;
+    color: yellow;
+    margin-left: 40px;
+}
+
+.nav-right{
+    display: flex;
+    color: antiquewhite;
+    margin-right: 40px;
+}
+.nav-item{
+    padding: 20px;
+}
+.toggle-menu{
+    display: none;
+}
+
+@media (max-width: 900px){
+    .nav-right{
+        display: none;
+    }
+    .toggle-menu{
+        display: flex;
+        border-radius: 5px;
+        height: 40px;
+        width: 60px;
+        margin-right: 40px;
+        text-align: center; 
+    }
+}
+
+.header-main{
+    height: 100vh;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    background-attachment: scroll;
+}
+
+.header-container{
+    padding-top: 300px;
+    padding-bottom: 200px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    margin-bottom: 25px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.btn-services{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: yellow;
+    padding: .375rem .75rem;
+}
